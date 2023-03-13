@@ -1,1 +1,2 @@
 print("Privet")
+print("abc")
