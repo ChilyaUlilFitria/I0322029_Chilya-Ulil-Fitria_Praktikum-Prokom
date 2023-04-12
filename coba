@@ -1,0 +1,21 @@
+Nama = input("Masukkan nama mahasiswa : ")
+Nim = input("Masukkan nim mahasiswa : ")
+Fisika = int(input("Masukkan nilai Fisika : "))
+Biologi = int(input("Masukkan nilai Biologi : "))
+Matematika = int(input("Masukkan nilai Matematika : "))
+
+Nilai = (Fisika + Biologi + Matematika)/3
+A = 4
+B = 3
+C = 2
+D = 1
+
+if Nilai >= 80:
+    IPK = A
+elif Nilai <= 80:
+    if Nilai >= 70:
+        IPK = B
+else:
+    IPK = C
+
+Print(Nama, "dengan Nim", Nim, "memperoleh IPK", IPK)
